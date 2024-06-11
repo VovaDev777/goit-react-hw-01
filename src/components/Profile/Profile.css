@@ -1,0 +1,50 @@
+.card {
+    border: 2px solid black;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 244px;
+    padding-top: 10px;
+    
+}
+.worker-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.list {
+    list-style-type: none;
+    background-color: #d3d3d3;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.list-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 5px;
+    font-family: sans-serif;
+    border: 1px solid #808080;
+}
+.card-main-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.name {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.description {
+    color: #808080;
+}
+.stats {
+    text-align: center;
+    font-weight: bold;
+}

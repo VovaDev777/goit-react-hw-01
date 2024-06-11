@@ -1,6 +1,5 @@
 import Profile from "./components/Profile/Profile"
 
-
 const userData = {
   username: "Jacques Gluke",
   tag: "jgluke",
@@ -11,7 +10,8 @@ const userData = {
     views: 4827,
     likes: 1308
   }
-};
+}
+
 
 const App = () => {
   return (

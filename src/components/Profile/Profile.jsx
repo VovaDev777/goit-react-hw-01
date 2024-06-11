@@ -3,14 +3,15 @@ import "./Profile.css"
 const Profile = ({data: {username, tag, location, avatar, stats: {followers, views, likes}}}) => {
     // console.log(avatar);
   return (
-    <div>
-        <div>
+    
+    <div className="card">
+        <div className="card-main-info">
             <img src={avatar} alt="Coluege" className="worker-image" />
             <p className="name">{username}</p>
-            <p className="description">{tag}</p>
+            <p className="description">@{tag}</p>
             <p className="description">{location}</p>
         </div>
-        <ul>
+        <ul className="list">
             <li className="list-item">
                 <span className="stats-desc">Followers</span>
                 <span className="stats">{followers}</span>
@@ -25,7 +26,7 @@ const Profile = ({data: {username, tag, location, avatar, stats: {followers, vie
             </li>
         </ul>
     </div>
-
+    
   )
 }
 
