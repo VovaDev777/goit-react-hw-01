@@ -1,0 +1,29 @@
+.transaction-history {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid;
+    width: 80%;
+    font-family: sans-serif;
+
+    /* padding: 5px; */
+}
+.table-head {
+    background-color: black;
+    font-weight: bold;
+    
+}
+.table-body {
+    text-align: center;
+}
+.table-head th {
+    padding: 10px;
+    color: aliceblue;
+}
+
+.table-body td {
+    border: 1px solid black;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #a8ada9;
+}
